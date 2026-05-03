@@ -2,15 +2,15 @@
 
 ## 表格信息
 
-**表格名称**：人生笔记
-**Base Token**：YOUR_BASE_TOKEN
-**表格地址**：YOUR_BASE_URL
+**表格名称**：Faye的成长计划
+**Base Token**：T0ZQb1e25acfizsowUycm1Jan0c
+**表格地址**：https://lcn6itdxogbg.feishu.cn/base/T0ZQb1e25acfizsowUycm1Jan0c
 
 ---
 
 ## 表1：心情感悟
 
-**Table ID**：YOUR_FEELING_TABLE_ID
+**Table ID**：tblzT4l3lLw6OZkS
 
 ### 字段配置
 
@@ -18,11 +18,8 @@
 |--------|------|------|
 | 时间 | 日期时间 | 记录时间 |
 | 内容 | 文本 | 感悟内容 |
-| 具体事件 | 文本 | 具体发生了什么事 |
-| 思考 | 文本 | 当时的思考和分析 |
 | 情绪标签 | 多选 | 开心、焦虑、平静、疲惫、困惑、感恩、释然、委屈、愤怒、期待... |
 | 场景标签 | 多选 | 人际、工作、生活、成长、关系、独处、家庭... |
-| 下次怎么做 | 文本 | 经验总结和改进方向 |
 
 ### 操作命令
 
@@ -30,9 +27,9 @@
 
 ```bash
 lark-cli base +record-upsert \
-  --base-token "YOUR_BASE_TOKEN" \
-  --table-id "YOUR_FEELING_TABLE_ID" \
-  --json '{"时间":"2026-04-17 22:00:00","内容":"感悟内容","具体事件":"具体事件","思考":"思考分析","情绪标签":["焦虑"],"场景标签":["人际"],"下次怎么做":"下次改进"}' \
+  --base-token "T0ZQb1e25acfizsowUycm1Jan0c" \
+  --table-id "tblzT4l3lLw6OZkS" \
+  --json '{"时间":"2026-04-17 22:00:00","内容":"感悟内容","情绪标签":["焦虑"],"场景标签":["人际"]}' \
   --as user
 ```
 
@@ -40,7 +37,7 @@ lark-cli base +record-upsert \
 
 ## 表2：纪念日
 
-**Table ID**：YOUR_ANNIVERSARY_TABLE_ID
+**Table ID**：tbl6ACwhojvfd13V
 
 ### 字段配置
 
@@ -48,7 +45,6 @@ lark-cli base +record-upsert \
 |--------|------|------|
 | 纪念日名称 | 文本 | 纪念日名称 |
 | 日期 | 日期 | 纪念日日期 |
-| 类型 | 单选 | 生日、节日、入职纪念日、其他 |
 | 提醒状态 | 文本 | 已提醒/未提醒 |
 
 ### 操作命令
@@ -57,9 +53,9 @@ lark-cli base +record-upsert \
 
 ```bash
 lark-cli base +record-upsert \
-  --base-token "YOUR_BASE_TOKEN" \
-  --table-id "YOUR_ANNIVERSARY_TABLE_ID" \
-  --json '{"纪念日名称":"家人生日","日期":"2026-04-20","类型":"生日"}' \
+  --base-token "T0ZQb1e25acfizsowUycm1Jan0c" \
+  --table-id "tbl6ACwhojvfd13V" \
+  --json '{"纪念日名称":"妈妈生日","日期":"2026-04-20"}' \
   --as user
 ```
 
@@ -67,21 +63,16 @@ lark-cli base +record-upsert \
 
 ## 表3：礼物记录
 
-**Table ID**：YOUR_GIFT_TABLE_ID
+**Table ID**：tblHGcHO4PAfmtJz
 
 ### 字段配置
 
 | 字段名 | 类型 | 说明 |
 |--------|------|------|
-| 礼物内容 | 文本 | 礼物名称 |
+| 礼物名称 | 文本 | 礼物名称 |
 | 对象 | 文本 | 送/收对象 |
 | 场合 | 文本 | 生日、节日、日常... |
 | 日期 | 日期 | 记录日期 |
-| 年份 | 数字 | 年份 |
-| 花费 | 数字 | 花费金额 |
-| 备注 | 文本 | 备注说明 |
-| 对方反馈 | 文本 | 对方反馈 |
-| 纪念日 | 关联 | 关联到纪念日表 |
 
 ### 操作命令
 
@@ -89,9 +80,9 @@ lark-cli base +record-upsert \
 
 ```bash
 lark-cli base +record-upsert \
-  --base-token "YOUR_BASE_TOKEN" \
-  --table-id "YOUR_GIFT_TABLE_ID" \
-  --json '{"礼物内容":"鲜花","对象":"家人","场合":"生日","日期":"2026-04-20","年份":2026,"花费":150}' \
+  --base-token "T0ZQb1e25acfizsowUycm1Jan0c" \
+  --table-id "tblHGcHO4PAfmtJz" \
+  --json '{"礼物名称":"花","对象":"妈妈","场合":"生日","日期":"2026-04-20"}' \
   --as user
 ```
 

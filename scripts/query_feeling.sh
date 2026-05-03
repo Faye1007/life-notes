@@ -6,8 +6,8 @@ set -e
 
 DAYS="${1:-7}"
 
-BASE_TOKEN="YOUR_BASE_TOKEN"
-TABLE_ID="YOUR_FEELING_TABLE_ID"
+BASE_TOKEN="T0ZQb1e25acfizsowUycm1Jan0c"
+TABLE_ID="tblzT4l3lLw6OZkS"
 
 echo "📝 近${DAYS}天人生笔记"
 echo "===================="

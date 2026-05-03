@@ -18,8 +18,8 @@ if [ -z "$EVENT" ] && [ -z "$THOUGHT" ]; then
     exit 1
 fi
 
-BASE_TOKEN="YOUR_BASE_TOKEN"
-TABLE_ID="YOUR_FEELING_TABLE_ID"
+BASE_TOKEN="T0ZQb1e25acfizsowUycm1Jan0c"
+TABLE_ID="tblzT4l3lLw6OZkS"
 NOW=$(date +"%Y-%m-%d %H:%M:%S")
 
 export LARK_CLI_NO_PROXY=1

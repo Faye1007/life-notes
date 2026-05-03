@@ -13,12 +13,12 @@ ANNIVERSARY_ID="$6"
 
 if [ -z "$CONTENT" ]; then
     echo "用法: ./record_gift.sh \"礼物内容\" [\"年份\"] [\"花费\"] [\"备注\"] [\"对方反馈\"] [\"纪念日ID\"]"
-    echo "示例: ./record_gift.sh \"花+蛋糕\" \"2026\" \"200\" \"家人生日礼物\" \"很喜欢\" \"recvgMLxxxx\""
+    echo "示例: ./record_gift.sh \"花+蛋糕\" \"2026\" \"200\" \"妈妈生日礼物\" \"很喜欢\" \"recvgMLxxxx\""
     exit 1
 fi
 
-BASE_TOKEN="YOUR_BASE_TOKEN"
-TABLE_ID="YOUR_GIFT_TABLE_ID"
+BASE_TOKEN="T0ZQb1e25acfizsowUycm1Jan0c"
+TABLE_ID="tblHGcHO4PAfmtJz"
 
 export LARK_CLI_NO_PROXY=1
 

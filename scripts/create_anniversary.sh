@@ -9,12 +9,12 @@ DATE="$2"
 
 if [ -z "$NAME" ] || [ -z "$DATE" ]; then
     echo "用法: ./create_anniversary.sh \"纪念日名称\" \"日期\""
-    echo "示例: ./create_anniversary.sh \"家人生日\" \"2026-04-20\""
+    echo "示例: ./create_anniversary.sh \"妈妈生日\" \"2026-04-20\""
     exit 1
 fi
 
-BASE_TOKEN="YOUR_BASE_TOKEN"
-TABLE_ID="YOUR_ANNIVERSARY_TABLE_ID"
+BASE_TOKEN="T0ZQb1e25acfizsowUycm1Jan0c"
+TABLE_ID="tbl6ACwhojvfd13V"
 
 # 写入飞书多维表格
 lark-cli base +record-upsert \

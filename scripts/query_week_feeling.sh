@@ -4,8 +4,8 @@
 
 set -e
 
-BASE_TOKEN="YOUR_BASE_TOKEN"
-TABLE_ID="YOUR_FEELING_TABLE_ID"
+BASE_TOKEN="T0ZQb1e25acfizsowUycm1Jan0c"
+TABLE_ID="tblzT4l3lLw6OZkS"
 
 # 计算本周起止日期
 WEEK_START=$(date -d "last monday" +"%Y-%m-%d" 2>/dev/null || date -v-monday +"%Y-%m-%d")
