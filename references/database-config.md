@@ -3,8 +3,8 @@
 ## 表格信息
 
 **表格名称**：Faye的成长计划
-**Base Token**：T0ZQb1e25acfizsowUycm1Jan0c
-**表格地址**：https://lcn6itdxogbg.feishu.cn/base/T0ZQb1e25acfizsowUycm1Jan0c
+**Base Token**：your_base_token_here
+**表格地址**：https://lcn6itdxogbg.feishu.cn/base/your_base_token_here
 
 ---
 
@@ -27,7 +27,7 @@
 
 ```bash
 lark-cli base +record-upsert \
-  --base-token "T0ZQb1e25acfizsowUycm1Jan0c" \
+  --base-token "your_base_token_here" \
   --table-id "tblzT4l3lLw6OZkS" \
   --json '{"时间":"2026-04-17 22:00:00","内容":"感悟内容","情绪标签":["焦虑"],"场景标签":["人际"]}' \
   --as user
@@ -53,7 +53,7 @@ lark-cli base +record-upsert \
 
 ```bash
 lark-cli base +record-upsert \
-  --base-token "T0ZQb1e25acfizsowUycm1Jan0c" \
+  --base-token "your_base_token_here" \
   --table-id "tbl6ACwhojvfd13V" \
   --json '{"纪念日名称":"妈妈生日","日期":"2026-04-20"}' \
   --as user
@@ -80,7 +80,7 @@ lark-cli base +record-upsert \
 
 ```bash
 lark-cli base +record-upsert \
-  --base-token "T0ZQb1e25acfizsowUycm1Jan0c" \
+  --base-token "your_base_token_here" \
   --table-id "tblHGcHO4PAfmtJz" \
   --json '{"礼物名称":"花","对象":"妈妈","场合":"生日","日期":"2026-04-20"}' \
   --as user
